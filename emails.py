@@ -32,6 +32,6 @@ def send_email(message):
   #mail_server = smtplib.SMTP('localhost')
   mail_server = smtplib.SMTP('smtp.live.com', 587)
   mail_server.starttls()
-  mail_server.login('djessyatta@live.fr', 'AlphaMito2009')
+  mail_server.login('@', '***')
   mail_server.send_message(message)
   mail_server.quit()
